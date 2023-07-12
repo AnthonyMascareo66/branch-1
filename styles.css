@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section  {
+height: 1000px;
+
+}
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+section#hero {
+   background-color: rgba(168, 206, 218, 0.441) ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    }
+
+section#hero h1 {
+    font-size: 3rem ;
+    
+    }
+
+    section#hero h2 {
+        font-size: 2rem ;
+        
+        }
+
+.projects-details{
+    border: 5px solid lightgray;
+    background-color: rgba(65, 155, 182, 0.486) ;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
+.projects-details img{
+    border: 5px solid lightgray;
+    width: 500px;
+    
+}
+
